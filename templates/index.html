@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/style.css') }}">
+    <title>Gerador de Startup</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Gerador de Ideias para Startups</h1>
+        <form id="startup-form" class="startup-form">
+            <input type="text" id="startup-input" class="startup-input" placeholder="Descreva sua ideia" required>
+            <button type="submit" class="generate-button">Gerar Ideia</button>
+        </form>
+        <div id="response" class="response">
+            <h2 class="response-title">Ideia:</h2>
+            <p id="api-response" class="api-response"></p>
+        </div>
+        <footer>
+            <p>Desenvolvido por Thomas</p>
+        </footer>
+    </div>
+    <script src="{{ url_for('static', filename='js/index.js') }}"></script>
+</body>
+</html>

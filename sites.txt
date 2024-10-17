@@ -1,0 +1,10 @@
+
+## Primeiro Link:
+https://rapidapi.com/sujoyk211/api/infinite-gpt/playground/apiendpoint_3e749538-2556-4699-8c48-e9db54692ad1
+
+Essa API da RapidAPI é gratuito no qual utilizei primeiro para fazer testes , mas no entanto ela da poucos tokens e requests para testes
+
+# Segundo Link:
+https://rapidapi.com/NextAPI/api/cheapest-gpt-4-turbo-gpt-4-vision-chatgpt-openai-ai-api/playground/apiendpoint_011e20f4-5ffd-411e-a8fb-4703567953d3
+
+Essa API ela oferece 1000 Requests por mês, no plano gratuito da RapidAPI, voce so precisa ter uma conta dentro do site deles e clicar no botão de se inscrever.
